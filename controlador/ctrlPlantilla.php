@@ -1,4 +1,5 @@
 <?php
+    /* prueba */
     class Plantilla
     {
         static public function ctrlPlantilla()
