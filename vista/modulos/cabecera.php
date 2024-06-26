@@ -32,10 +32,11 @@ $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'inicio';
 
             <ul class="custom-navbar-cta navbar-nav icons-nav">
                 <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tooltip" title="Iniciar Sesión/Registrarse" href="index.php?pagina=iniciarSesion"><i class='bx bx-user <?php echo $pagina == 'iniciarSesion' ? 'bx-tada' : ''; ?>' style='color: #000; font-size: 28px;'></i></a>
+                    <a class="nav-link" data-bs-toggle="tooltip" title="Iniciar Sesión/Registrarse" href="index.php?pagina=iniciarSesion"><i class='bx bx-cab bx-user <?php echo $pagina == 'iniciarSesion' ? 'bx bx-nos-tada' : ''; ?>'></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Carrito" href="index.php?pagina=carrito"><i class='bx bx-cart <?php echo $pagina == 'carrito' ? 'bx-tada' : ''; ?>' style='color: #000; font-size: 28px;'></i></a>
+                    <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Carrito" href="index.php?pagina=carrito"> <i class='bx bx-cab bx-cart <?php echo in_array($pagina, ['carrito', 'verificar', 'gracias']) ? 'bx bx-nos-tada' : ''; ?>'></i>
+                    </a>
                 </li>
             </ul>
         </div>

@@ -3,10 +3,6 @@ $paginaActual = isset($_GET['pagina']) ? $_GET['pagina'] : 'inicio';
 
 // Definir los títulos y descripciones de las páginas
 $banners = [
-    "inicio" => [
-        "titulo" => "Bienvenido a D'Italia",
-        "descripcion" => "Explora nuestra exclusiva colección de vestidos de XV años y encuentra el vestido perfecto para tu celebración."
-    ],
     "catalogo" => [
         "titulo" => "Catálogo de productos",
         "descripcion" => "Descubre nuestra amplia selección de vestidos, accesorios y más para hacer tu día especial inolvidable."
@@ -36,8 +32,8 @@ $descripcion = isset($banners[$paginaActual]['descripcion']) ? $banners[$paginaA
                 <p class="fs-4 lh-base"><?php echo $descripcion; ?></p>
             </div>
             <div class="col-lg-6">
-                <img src="<?php echo $ruta . "/" ?>images/logo-dItalia.png" class="img-fluid" style="filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.7));">
-                <p class="text-center"><img src="<?php echo $ruta . "/" ?>images/logo-sni.png" class="w-25" style="filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.7));"></p>
+                <img src="<?php echo $ruta . "/" ?>images/plantilla/logo-texto.png" class="img-fluid" style="filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.7));">
+                <p class="text-center"><img src="<?php echo $ruta . "/" ?>images/plantilla/logo-ilustracion.png" class="w-25" style="filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.7));"></p>
             </div>
         </div>
     </div>

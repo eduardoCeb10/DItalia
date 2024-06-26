@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <body>
     <!--Inicio seccion ¿Quienes somos?-->
@@ -28,7 +28,7 @@
     <!--Fin seccion ¿Quienes somos?-->
 
     <!-- Start Why Choose Us Section -->
-    <div class="why-choose-section">
+    <div class="why-choose-section contenedor">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-6">
@@ -38,7 +38,7 @@
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                    <img src="<?php echo $ruta . "/" ?>images/horario.png" alt="Image" class="imf-fluid">
+                                    <i class='bx bx-nos bx-time'></i>
                                 </div>
                                 <h3 class="fs-5">Horario de atención</h3>
                                 <p class="fs-6">Nuestro horario de atención es de 11:00 a 18:00. Visítanos y encuentra el vestido perfecto para tu quinceañera.</p>
@@ -48,7 +48,7 @@
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                    <img src="<?php echo $ruta . "/" ?>images/apartado.png" alt="Image" class="imf-fluid">
+                                    <i class='bx bx-nos bx-calendar'></i>
                                 </div>
                                 <h3 class="fs-5">Sistema de apartado</h3>
                                 <p class="fs-6">Puedes apartar tu vestido con un mínimo de $1000. Asegura el vestido de tus sueños para tu gran día.</p>
@@ -58,7 +58,7 @@
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                    <img src="<?php echo $ruta . "/" ?>images/diseno.png" alt="Image" class="imf-fluid">
+                                    <i class='bx bx-nos bx-brush'></i>
                                 </div>
                                 <h3 class="fs-5">Diseños personalizados</h3>
                                 <p class="fs-6">Si tienes un diseño en mente, tráelo y haremos realidad el vestido de tus sueños adaptandolo a un precio justo.</p>
@@ -68,7 +68,7 @@
                         <div class="col-6 col-md-6">
                             <div class="feature">
                                 <div class="icon">
-                                    <img src="<?php echo $ruta . "/" ?>images/entrega.png" alt="Image" class="imf-fluid">
+                                    <i class='bx bx-nos bx-timer'></i>
                                 </div>
                                 <h3 class="fs-5">Entrega puntual</h3>
                                 <p class="fs-6">Nos comprometemos a entregar los vestidos puntualmente antes del evento, asegurando que todo esté perfecto para tu celebración.</p>
@@ -80,7 +80,7 @@
 
                 <div class="col-lg-5">
                     <div class="img-wrap">
-                        <img src="<?php echo $ruta . "/" ?>images/galeria-5.jpg" alt="Image" class="img-fluid">
+                        <img src="<?php echo $ruta . "/" ?>images/nosotros-1.jpg" alt="Image" class="img-fluid">
                     </div>
                 </div>
 
@@ -90,19 +90,21 @@
     <!-- End Why Choose Us Section -->
 
     <!-- Start Team Section -->
-    <div class="container mb-5 pb-5">
+    <div class="container mb-5 pt-5">
         <div class="row mb-5">
             <div class="col-lg-5 mx-auto text-center">
                 <h2 class="section-title">Nuestro Equipo</h2>
             </div>
         </div>
 
-        <div class="row justify-content-center mb-5">   
+        <div class="row justify-content-center mb-5">
             <div class="card mb-5" style="width: 25rem; border:none;">
                 <img src="<?php echo $ruta . "/" ?>images/equipo.jpeg" class="img-fluid card-img-top" alt="...">
                 <div class="card-body text-center">
-                    <p class="card-text"><h5>Eduardo Ceballos</h5>Encargado, vendedor.
-                    <hr> <h5>Ericka Vazquez</h5>Dueña.</p>
+                    <p class="card-text">
+                    <h5>Eduardo Ceballos</h5>Encargado, vendedor.
+                    <hr>
+                    <h5>Ericka Vazquez</h5>Dueña.</p>
                 </div>
             </div>
         </div>

@@ -25,7 +25,7 @@ ul {
 }
 
 .socials a:hover {
-  color: #FFEEE2;
+  color: #ffeee2;
 }
 
 .links {
@@ -42,7 +42,7 @@ ul {
 }
 
 .links a:hover {
-  color: #FFEEE2;
+  color: #ffeee2;
 }
 
 .legal {
@@ -57,7 +57,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: scaleY(2.5) scaleX(2); /* Ajusta estos valores según sea necesario */
+  transform: scaleY(2.5) scaleX(2);
   transform-origin: bottom;
   box-sizing: border-box;
   display: block;
@@ -71,7 +71,7 @@ footer {
   display: flex;
   width: 100%;
   height: 370px;
-  overflow: hidden; /* Para asegurar que el contenido no se salga del área */
+  overflow: hidden;
 }
 
 section {
@@ -99,7 +99,7 @@ section {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #FFEEE2;
+  background: #ffeee2;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -113,27 +113,27 @@ section {
 }
 
 .back-to-top i {
-  color: #E6C3AA;
+  color: #e6c3aa;
   padding-top: 10px;
 }
 
 .back-to-top:hover {
-  background: #E6C3AA;
+  background: #e6c3aa;
 }
 
 .back-to-top:hover i {
-  color: #FFEEE2;
+  color: #ffeee2;
 }
 
 @media (max-width: 768px) {
   .links {
     display: none;
   }
-  
+
   .socials {
     align-items: center;
   }
-  
+
   section {
     padding-left: 0;
     gap: 10px;

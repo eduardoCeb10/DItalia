@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <body>
     <!-- Inicio Formulario Contacto -->
@@ -50,29 +50,39 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label class="text-black" for="fname">Nombre(s) <span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" id="fname" required autofocus>
+                                        <label class="text-black">Nombre(s) <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" required autofocus>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label class="text-black" for="lname">Apellido(s)</label>
-                                        <input type="text" class="form-control" id="lname">
+                                        <label class="text-black">Apellido(s)</label>
+                                        <input type="text" class="form-control" id="apellido" name="apellido">
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label class="text-black" for="email">Correo Electrónico <span class="text-danger">*</span></label>
-                                <input type="email" class="form-control" id="email" placeholder="Correo electrónico" required>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="text-black">Correo electrónico <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="correo" name="correo" required>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="text-black">Número télefonico</label>
+                                        <input type="text" class="form-control" id="telefono" name="telefono">
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="form-group mb-5">
-                                <label class="text-black" for="message">Mensaje <span class="text-danger">*</span></label>
-                                <textarea name="" class="form-control" id="message" cols="30" rows="5" placeholder="Escribe el asunto, queja, sugerencia, comentario aquí..." required></textarea>
+                                <label class="text-black">Mensaje <span class="text-danger">*</span></label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" cols="30" rows="5" placeholder="Escribe el asunto, queja, sugerencia, comentario aquí..." required></textarea>
                             </div>
 
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <button type="submit" class="btn btn-secondary text-center">Enviar mensaje</button>
+                                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
                             </div>
                         </form>
                     </div>

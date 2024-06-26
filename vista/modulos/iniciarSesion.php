@@ -43,7 +43,7 @@
         <!-- Contenedor para la imagen -->
         <div class="image-container">
             <a href="index.php?pagina=panelControl">
-                <img src="<?php echo $ruta . "/" ?>images/logo-sni.png" alt="Login Image">
+                <img src="<?php echo $ruta . "/" ?>images/plantilla/logo-ilustracion.png" alt="Login Image">
             </a>
         </div>
     </div>

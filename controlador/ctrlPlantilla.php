@@ -8,7 +8,7 @@
 
         static public function ctrlRuta()
         {
-            return "https://d-italia.000webhostapp.com/vista/recursos";
+            return "http://localhost/D-Italia/vista/recursos";
         }
     }
 ?>

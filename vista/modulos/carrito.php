@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <body>
 
@@ -12,7 +12,8 @@
                             <thead>
                                 <tr>
                                     <th class="product-thumbnail">Imagen</th>
-                                    <th class="product-name">Producto</th>
+                                    <th class="product-name">Modelo</th>
+                                    <th class="product-name">Accesorio</th>
                                     <th class="product-price">Precio</th>
                                     <th class="product-quantity">Cantidad</th>
                                     <th class="product-total">Total</th>
@@ -26,6 +27,9 @@
                                     </td>
                                     <td class="product-name">
                                         <h2 class="h5 text-black mt-2">Mariana</h2>
+                                    </td>
+                                    <td class="product-name">
+                                        <p></p>
                                     </td>
                                     <td class="price">$6,299.90</td>
                                     <td>
@@ -50,6 +54,9 @@
                                     </td>
                                     <td class="product-name">
                                         <h2 class="h5 text-black mt-2">Carolina</h2>
+                                    </td>
+                                    <td class="product-name">
+                                        <p></p>
                                     </td>
                                     <td class="price">$7,399.90</td>
                                     <td>
