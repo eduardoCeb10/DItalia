@@ -4,6 +4,8 @@ $ruta = Plantilla::ctrlRuta();
 
 ?>
 
+<!-- prueba -->
+
 <!doctype html>
 <html lang="en">
 
