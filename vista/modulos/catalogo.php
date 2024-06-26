@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <body>
     <div class="untree_co-section product-section before-footer-section">
@@ -106,9 +106,8 @@
 
                         <h5 class="filter-title">Corte</h5>
                         <select class="form-control mb-3">
-                            <option>Todos</option>
-                            <option>Regular</option>
-                            <option>Fit</option>
+                            <option>Completo</option>
+                            <option>Desmontable</option>
                         </select>
 
                         <h5 class="filter-title">Talla</h5>

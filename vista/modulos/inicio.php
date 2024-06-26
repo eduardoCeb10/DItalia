@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <body>
     <!-- Start Product Section -->
-    <div class="product-section">
+    <div class="product-section mt-5">
         <div class="container">
             <div class="row">
 
@@ -68,12 +68,12 @@
         <div class="contenedor">
             <h2 class="section-title text-center fs-1">Galería</h2>
             <div class="contenedor-galeria">
-                <img src="<?php echo $ruta . "/" ?>images/galeria-1.jpg" class="img-galeria ms-4" alt="">
-                <img src="<?php echo $ruta . "/" ?>images/galeria-2.jpg" class="img-galeria ms-4" alt="">
-                <img src="<?php echo $ruta . "/" ?>images/galeria-3.jpg" class="img-galeria ms-4" alt="">
-                <img src="<?php echo $ruta . "/" ?>images/galeria-4.jpg" class="img-galeria ms-4" alt="">
-                <img src="<?php echo $ruta . "/" ?>images/galeria-5.jpg" class="img-galeria ms-4" alt="">
-                <img src="<?php echo $ruta . "/" ?>images/galeria-7.jpg" class="img-galeria ms-4" alt="">
+                <img src="<?php echo $ruta . "/" ?>images/galeria/galeria-2.jpg" class="img-galeria ms-4" alt="">
+                <img src="<?php echo $ruta . "/" ?>images/galeria/galeria-3.jpg" class="img-galeria ms-4" alt="">
+                <img src="<?php echo $ruta . "/" ?>images/galeria/galeria-4.jpg" class="img-galeria ms-4" alt="">
+                <img src="<?php echo $ruta . "/" ?>images/galeria/galeria-5.jpg" class="img-galeria ms-4" alt="">
+                <img src="<?php echo $ruta . "/" ?>images/galeria/galeria-7.jpg" class="img-galeria ms-4" alt="">
+                <img src="<?php echo $ruta . "/" ?>images/galeria/galeria-8.jpg" class="img-galeria ms-4" alt="">
             </div>
         </div>
     </section>
@@ -85,7 +85,7 @@
 
     <!-- inicio productos mas vendidos-->
     <div class="masVendidoTitulo">
-        <h2 class="section-title text-center fs-1">LO MAS VENDIDO</h2>
+        <h2 class="section-title text-center fs-1 mt-4">LO MÁS VENDIDO</h2>
     </div>
     <div class="untree_co-section product-section before-footer-section">
         <div class="container">
@@ -118,7 +118,7 @@
                     </a>
                 </div>
                 <!-- End Column 2 -->
-                
+
                 <!-- Start Column 3 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5">
                     <a class="product-item" href="#">
